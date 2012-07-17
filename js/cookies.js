@@ -77,7 +77,7 @@ jQuery.fn.remove = function() {
 
 // jQuery.BTwidget is a factory to create jQuery plugins
 // taking some boilerplate code out of the plugin code
-// created by Scott Gonz‡lez and Jšrn Zaefferer
+// created by Scott Gonzï¿½lez and Jï¿½rn Zaefferer
 function getter(namespace, plugin, method) {
 	var methods = jQuery[namespace][plugin].getter || [];
 	methods = (typeof methods == "string" ? methods.split(/,?\s+/) : methods);
@@ -959,8 +959,7 @@ btCookies = function () {
 	
 	// Sets cookie to the page. Please use your domian name
 	function setCookie(newLevel) {
-		//jQuery.cookie("cookie_level", newLevel, { domain: 'bt.com', path: '/',expires: 365 });
-		jQuery.cookie("cookie_level", newLevel, { domain: '10.241.187.107', path: '/',expires: 365 });
+		jQuery.cookie("cookie_level", newLevel, { domain: mydomain.com', path: '/',expires: 365 });
 	}
 	
 	// Returns cookie value
