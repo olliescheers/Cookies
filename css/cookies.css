@@ -1,0 +1,621 @@
+/*-----------------------------------------
+Project: BT WCV - cookies.css
+URL: http://www.bt.com/
+Created: January 16th 2011
+----------------------------------------- */
+
+/**
+* Reset font sizes for cookie items
+**/
+#cookiesToolbar p,
+.cookieTooltip p,
+#yourCookieSettings h2,
+#yourCookieSettings h3,
+#yourCookieSettings p,
+#yourCookieSettings ul {
+	font-size: 0.9em;
+	text-align: left;
+}
+#yourCookieSettings p {
+	margin-bottom: 10px;
+}
+
+#Footer {
+	position: relative;
+}
+#cookiesToolbar a,
+#cookieNotification a,
+#cookieFooter a {
+	color: #0263AA;
+	font-family: Tahoma, Arial, Verdana;
+	text-decoration: none;
+}
+#cookiesToolbar a:hover,
+#cookiesToolbar a:focus,
+#cookieNotification a:hover,
+#cookieNotification a:focus {
+	text-decoration: underline;
+}
+
+#cookiesToolbar {
+	width:980px;
+	margin: 0 auto;
+	height:40px;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 14px;
+}
+#cookiesToolbarContainer {
+	float: right;
+	width: 300px;
+}
+#cookiesToolbar ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding:12px 0 0 15px;
+	float: left;
+}
+#cookiesToolbar ul li {
+	text-indent:-9999px;
+	width:22px;
+	height:23px;
+	float: left;
+	background: none;
+	padding:0;
+	margin: 0 1px 0 0;
+}
+#cookiesToolbar ul li a {
+	width:22px;
+	height:23px;
+	display: block;
+	overflow: hidden;/* Stops text-indent:-9999px; in the previous rule from causing focus outlines in this link from becoming very wide in Firefox */
+}
+#cookiesToolbar ul li.iconNeccesary a {
+	background: url('../images/css/strictly_neccesary_icon.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconPerformance a {
+	background: url('../images/css/performance_icon.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconFunctional a {
+	background: url('../images/css/aa_icon.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconSharing a {
+	background: url('../images/css/share_icon.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconNeccesary a.active {
+	background: url('../images/css/strictly_neccesary_icon_active.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconPerformance a.active {
+	background: url('../images/css/performance_icon_active.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconFunctional a.active {
+	background: url('../images/css/aa_icon_active.png') no-repeat top left;
+}
+#cookiesToolbar ul li.iconSharing a.active {
+	background: url('../images/css/share_icon_active.png') no-repeat top left;
+}
+#cookiesToolbar p {
+	float: left;
+	padding:15px 5px 0 11px;
+	height:25px;
+	margin:0;
+}
+#cookiesToolbar p a {
+	color: #28538d;
+	text-decoration: none;
+	font-weight: normal;
+}
+#cookiesToolbar p a:hover {
+	color: #28538d;
+	text-decoration: underline;
+}
+#cookiesHelp {
+	float: right;
+	background: url('../images/css/cookies_help_icon.png') no-repeat 15px 14px;
+	width:45px;
+	text-indent:-9999px;
+	height:40px;
+	text-align: center;
+}
+#cookiesHelp a {
+	display: block;
+	height:40px;
+}
+#cookiesHelp a.PE_cxtTrigger,
+#cookiesHelp a.PE_cxtTrigger:hover,
+#cookiesHelp a.PE_cxtTrigger:focus {
+	margin:0;
+	border: none;
+}
+
+/* Lightbox styles */
+
+.cookieContainer {
+    position: relative;
+    min-height: 200px;
+    margin-bottom:10px;
+}
+.cookieSlider,
+.cookieSliderActive {
+    list-style: none;
+	float: left;
+    padding: 0;
+    margin: 0;
+    width: 440px;
+    height: 144px;
+    border-radius:0 5px 5px 0;
+    border:1px solid #cbcfd4;
+    background: #dddddd url('../images/cookie_slider_off_bg.jpg') repeat-x;
+    position: absolute;
+    left: 0;
+}
+.cookieSliderActive {
+    border: none;
+}
+.cookieNecessaryPerformance {
+	float: left;
+	height:144px;
+	width:218px;
+	background: url('../images/cookie_sharing_performance.png') no-repeat;
+	cursor:pointer;
+}
+.cookieNecessaryPerformance span.labelFocus,
+.cookieSlider li span.labelFocus,
+.cookieSliderActive li span.labelFocus {
+	display: block;
+}
+.cookieNecessaryPerformance label,
+.cookieSlider li label,
+.cookieSliderActive li label {
+	cursor:pointer;
+	display: block;
+    color: #333;
+    font-size: 13px;
+	font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+}	
+.cookieNecessaryPerformance span.labelFocus:hover,
+.cookieNecessaryPerformance span.labelFocus:focus,
+.cookieSlider li span.labelFocus:hover,
+.cookieSlider li span.labelFocus:focus,
+.cookieSliderActive li span.labelFocus:hover,
+.cookieSliderActive li span.labelFocus:focus,
+.cookieSlider li .focused,
+.cookieSliderActive li .focused {
+	text-decoration: underline;
+	outline: none;
+}
+.cookieNecessaryPerformance span.labelFocus {
+ 	height:39px;
+ 	width:160px;
+ 	padding:105px 0 0 30px;
+}
+.cookieNecessaryPerformance label {
+	height:39px;
+}
+.cookieSlider li,
+.cookieSliderActive li {
+    float: left;
+    text-align: center;
+    height: 144px;
+	margin:0;
+}
+.cookieSlider li span.labelFocus,
+.cookieSliderActive li span.labelFocus {
+	padding:110px 10px 0 15px;
+	float: left;
+}
+.cookieSlider li label,
+.cookieSliderActive li label {
+	height:33px;
+}
+.cookieSlider li.cookieNecessary {
+    background: url('../images/cookie_sharing_off.png') no-repeat;
+}
+.cookieSlider li.cookieFunctional {
+	width:206px;
+    background: url('../images/functional_cookie_off.png') no-repeat;
+}
+.cookieSlider li.cookieFunctional span.labelFocus,
+.cookieSliderActive li.cookieFunctional span.labelFocus {
+	width:185px;
+}
+.cookieSlider li.cookieSharing {
+	width:234px;
+    background: url('../images/sharing_cookie_off.png') no-repeat;
+}
+.cookieSlider li.cookieSharing span.labelFocus,
+.cookieSliderActive li.cookieSharing span.labelFocus {
+	width:209px;
+	padding-left:5px;
+}
+.cookieSlider li.cookieSharing span.labelFocus {
+	width:218px;
+}
+.cookieSliderActive li.cookieNecessary {
+    background: url('../images/cookie_necessary_on.png') no-repeat;
+}
+.cookieSliderActive li.cookieFunctional {
+    background: url('../images/functional_cookie_on.png') no-repeat;
+	width:210px;
+}
+.cookieSliderActive li.cookieSharing {
+    background: url('../images/sharing_cookie_on.png') no-repeat;
+	width:230px;
+}
+.maskContainer .mask,
+.maskContainer {
+    width: 447px;
+    height: 144px;
+    position: absolute;
+    overflow: hidden;
+	left:208px;
+	display: block;
+	opacity: 1 !important;
+	filter: alpha(opacity=100) !important;
+	z-index: 0;
+}
+.maskContainer .mask {
+	left:0;
+}
+.sliderImage {
+	width: 33px;
+	height: 144px;
+	display: inline-block;
+    position: absolute;
+    right:0;
+    cursor: pointer;
+	background: url(../images/slider_handle.png) left top no-repeat;
+}
+.sliderImage.sliderImageTouch {
+	background-image: url(../images/slider_handle_touch.png);
+}
+.sliderImage span {
+	position: absolute; left: -9999px;
+}
+h3.will,
+h3.willNot {
+    height:45px;
+    float: left;
+    padding: 12px 0 3px 91px;
+	color: #666;
+	font-size:16px;
+	font-family: Tahoma, Arial, Verdana;
+	font-weight: normal;
+}
+h3.will {
+    background: url('../images/websitewill.jpg') no-repeat;
+    width: 237px;
+	margin:0;
+}
+h3.willNot {
+    background: url('../images/websitewillnot.jpg') no-repeat;
+    width: 237px;
+	margin:0;
+}
+.willList,
+.willNotList {
+	float: left;
+    padding:20px 20px 0 40px;
+    margin-top:-20px;
+}
+ul.willList {
+    width:268px;
+    min-height: 200px;
+    background: url('../images/list_border.png') no-repeat right top;
+}
+ul.willList li {
+	list-style-image: url('../images/tick.png');
+}
+.detailsColumnWill,
+.detailsColumnWillNot {
+	width:328px;
+	float: left;
+}
+ul.willNotList {
+    width:230px;
+}
+ul.willNotList li {	
+    list-style-image: url('../images/cross.png');
+}
+#detailsContainer {
+	width:656px;
+	float: left;
+}
+#details {
+    position:relative;
+    z-index:1;
+    padding: 0;
+    *margin-top: 20px;
+}
+#details .neccesaryPerformanceList,
+#details .functionalList,
+#details .sharingList {
+    display: none;
+    background: url('../images/list_bg.jpg') repeat-x left bottom #fff;
+    overflow: hidden;
+}
+#details div h2 {
+    margin-left:20px;
+}
+#details div ul li {
+    margin-bottom:10px;
+}
+#yourCookieSettings {
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	margin: 0 0 0 -386px;
+	padding: 0 20px 10px;
+	width: 696px;
+	border: 5px solid #000;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	color: #8f8a8d;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 14px;
+	display: none;
+	background: #fff;
+	z-index: 999;
+}
+#yourCookieSettings #close {
+	position: absolute;
+	top: -23px;
+	right: -23px;
+	width: 48px;
+	height: 48px;
+	background: url(../images/btn_close.gif) left top no-repeat;
+	text-indent: -999em;
+}
+
+html>body #yourCookieSettings #close {
+	background-image: url(../images/btn_close.png);
+}
+
+#yourCookieSettings #close:hover,
+#yourCookieSettings #close:focus {
+	background-position: left bottom;
+}
+#yourCookieSettings h2 {
+	margin: 15px 0;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	color: #000;
+	font-size: 28px;
+	font-weight: normal;
+}
+#yourCookieSettings .cookieContainer h2 {
+	margin: 0 0 5px;
+	border: 0;
+	font-size: 22px;
+}
+#cookieWrapper {
+	padding:20px 20px 10px;
+	background: url('../images/css/cookie_wrapper_bg.jpg') repeat-x top left #e6e6e6;
+	border:1px solid #b4b4b4;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	-moz-box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	box-shadow: 2px 0px 4px rgba(0,0,0,0.4);
+	margin-top:20px;
+	overflow: hidden;
+	height: auto; /*IE6 fix */
+}
+#cookieFooter {
+	width:700px;
+	float: left;
+	margin-top:20px;
+}
+#cookieFooter p {
+	float: left;
+	padding-top:5px;
+}
+.cookieSubmit {
+	float: right;
+	*width: 230px;
+}
+.cookieSubmit p {
+	padding:5px 15px 5px 0;
+	border-right:1px solid #d2d2d2;
+	margin-right:15px;
+}
+.cookieSubmit p a {
+	text-decoration: none;
+}
+.cookieSubmit p a:hover {
+	text-decoration: underline;
+	color: #005293;
+}
+
+/**
+* Popup notification
+**/
+
+#cookieNotification {
+	padding:20px 20px 0;
+	border:1px solid #a2acb1;
+	background: url('../images/css/cookie_notification_bg.jpg') repeat-x top left #dae9ed;
+	position: fixed;
+	bottom:40px;
+	right:20px;
+	z-index:999;
+	border-radius:5px;
+	-webkit-box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
+	box-shadow: 1px 0px 15px rgba(0,0,0,0.2);
+	width:320px;
+	display: block;
+}
+#cookieNotification p {
+	text-align: center;
+	line-height: 1.462em;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 13px;
+	color: #666;
+	margin: 0 0 1em;
+	padding:0 20px 10px;
+	clear: left;
+}
+#cookieNotification p a:hover {
+	color:#0066CC;
+}
+#cookieNotification .cookieButton,
+#cookieFooter .cookieButton {
+	border: 1px solid #d9d9d9;
+	margin: 10px 0 0 0;
+	padding: 4px 20px;
+	width: auto;
+	background: url(../images/css/btn_white.png) left top repeat-x;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 15px;
+}
+#cookieFooter .cookieButton {
+	margin: 0;
+	*padding: 0 10px;
+}
+#cookieFooter .cookieButtonBlue {
+	float: right;
+	background: url(../images/css/btn_blue.png) left top repeat-x;
+	border-color: #5789af;
+	cursor: pointer;
+}
+#cookieFooter .cookieButton input {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: 0;
+	color: #fff;
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 1.1em;
+	cursor: pointer;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	text-shadow: none;
+}
+#cookieNotification .cookieButton:hover,
+#cookieFooter .cookieButton:hover {
+	background-position: left bottom;
+	text-decoration: none;
+}
+#cookieNotification .lastButton {
+	margin-left: 20px;
+}
+#cookieNotification .arrow,
+#cookieFooter .arrow {
+	padding-right: 11px;
+	background: url(../images/css/icon_arrow.png) right no-repeat;
+	font-weight: normal;
+}
+#cookieActions {
+	float: left;
+	margin: 0 0 1em 7px;
+}
+.cookieContainer input {
+	display: none;
+}
+
+/**
+* Overlay
+**/
+iframe#cookieOverlayIE6Fix,
+#cookieOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* width and height need to be set in the js */
+	z-index: 999;
+}
+
+#cookieOverlay {
+	display: none;
+	background: url(../images/css/bg_overlay.png) 0 0 repeat;
+}
+
+/**
+* Tooltips
+**/
+.cookieTooltip {
+	position: absolute;
+	top: 0;
+	left: -999em;
+	padding: 10px 15px 0;
+	width: 250px;
+	background: #f9f9f9;
+	border: 1px solid #ccc;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+	font-family: Tahoma, Arial, Verdana;
+	font-size: 1.3em;
+}
+.cookieTooltip .inner {
+	margin-bottom: -14px;
+	padding-bottom: 14px;
+	background: url(../images/css/bg_tip_point.png) left bottom no-repeat;
+	zoom: 1;
+}
+.leftTip .inner {
+	background: url(../images/css/bg_tip_point.png) right bottom no-repeat;
+}
+.cookieTooltip p {
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+#cookieWrapper .cookieContainer .maskContainer .cookieSlider li.cookieSharing {
+	_width:220px;
+}
+#cookieWrapper .cookieContainer .maskContainer .cookieSlider li.cookieSharing span.labelFocus {
+	_width:212px;
+}
+#cookieFooter p a:hover {
+	_color: #005293;
+}
+#cookiesToolbar {
+	_margin-bottom:-1px;
+}
+#cookiesToolbar ul li a {
+	_border: 0;
+	_margin-bottom:0;
+}
+#cookieNotification {
+	_position: absolute!important;
+	_top:20px;
+	_right:20px;
+}
+#details .neccesaryPerformanceList,
+#details .functionalList,
+#details .sharingList {
+	_padding-top:0;
+}
+html>body #cookieNotification .cookieButton {
+	*float: left;
+}
+html>body #cookieNotification p a.arrow {
+	*float: left;
+	*margin-left: 30px;
+}
+* #cookieNotification .cookieButton {
+	float: left;
+}
+* #cookieNotification p a.arrow {
+	float: left;
+	margin-left: 30px;
+}
+div.subNote {
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    text-align: right;
+	font-size: 0.9em;
+}

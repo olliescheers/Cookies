@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>BT cookie implementation demo</title>
+    <style>
+		body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
+		#header{background-image:url('logo/logo_81x38.gif'); height:100px; width:100%; background-repeat:no-repeat;}
+		#contentArea{margin: 0 auto; width:900px; height:500px;};
+		#cookieLevelMsg{margin-top:100px;}
+	</style>
+    <script src="js/jquery-1.4.3.min.js" type="text/javascript"></script>
+	<script src="js/bt.cookies.api.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="page">
+        <div id="contentArea">
+        	<div id="header"></div>
+            <h1>Cookie Solution Demo</h1>
+            <div id="introNotes">
+                This is a simple implementation of BT.com cookie solution.<br>
+                Hope this is useful to you. 
+            </div>
+            <br>
+<br>
+<br>
+            <div id="cookieLevelMsg">
+				<script type="text/javascript">						
+					var supportedCookies = "Strictly necessary, performance";
+				
+					// Cookie wrapping example single argument: can be ('targeting') or ('functional')
+					if (btCookiesAPI.hasSupportFor('functional')) {
+						supportedCookies = supportedCookies + ', functional';
+					}
+					// Cookie wrapping example with multiple arguments
+					if (btCookiesAPI.hasSupportFor('functional','targeting')) {
+						supportedCookies = supportedCookies + ', targeting';
+					}
+					document.write("<h3>Cookies supported: " + supportedCookies + "</h3>");					
+                </script>
+            </div>
+        </div>
+    </div>
+<script src="js/bt.cookies.js" type="text/javascript"></script>
+</body>
+</html>
