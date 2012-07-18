@@ -19,10 +19,12 @@ Copyright BT 2012
 *********************************************************************************************************************
 *********************************************************************************************************************
 
+OVERVIEW
 The main use-case for this API is to allow cookie-dependant CMS, application or 3rd party JavaScript code to be 
 wrapped in a conditional statement such that it will execute only if cookies of a particular category have been given 
 consent to by the user.
 
+IMPLEMENTATION STEPS
 1. Replace `mydomain.com` with your domain in **cookies.js**
 2. Upload the cookie code to your site.
 3. Add **bt.cookies.api.js** to the head tag - ideally just before the head tag is closed.
