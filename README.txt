@@ -1,4 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+Legal Disclaimer The comments throughout the project files are not intended, and should not be interpreted, 
+as legal advice by BT. BT makes no representation nor gives any warranty that the solution as implemented 
+will comply with the requirements of the E Privacy Regulations and takes no responsibility for any implementation 
+of this code on other websites. Poor implementation or categorisation of cookies may result in a poor or 
+misleading solution and anyone adopting this solution should seek their own legal advice before implementing it is 
+a condition of using this solution that a website operator enters into a licence provided here [ ] and that the 
+categorisation of cookies follows the ICC UK guidelines, and the implementation is complete (i.e. all concepts 
+described below are incorporated), if you are unsure if your implementation satisfies the legal requirements for 
+the jurisdiction you operate in you should seek independent legal advice.
 
+Your use of the BT cookie solution is at your own risk and BT accepts no liability for any loss or damage which 
+you may incur no matter how caused.
+
+Copyright BT 2012
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 
 1. Replace `mydomain.com` with your domain in **cookies.js**
 2. Upload the cookie code to your site.
