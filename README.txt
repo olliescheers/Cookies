@@ -19,12 +19,18 @@ Copyright BT 2012
 ----------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------
 
+The main use-case for this API is to allow cookie-dependant CMS, application or 3rd party JavaScript code to be 
+wrapped in a conditional statement such that it will execute only if cookies of a particular category have been given 
+consent to by the user.
+
 1. Replace `mydomain.com` with your domain in **cookies.js**
 2. Upload the cookie code to your site.
 3. Add **bt.cookies.api.js** to the head tag - ideally just before the head tag is closed.
 4. Add **cookies.js** before the end body tag - ideally just before the body tag is closed.
 
-Any inline code which drops a cookie can be wrapped with a call to the hasSupportFor function – this function will stop the inner code being executed and ensure that cookies are not created if the appropriate level doesn’t match the cookie category. 
+Any inline code which drops a cookie can be wrapped with a call to the hasSupportFor function – this function will 
+stop the inner code being executed and ensure that cookies are not created if the appropriate level doesn’t match the 
+cookie category. 
 
 Valid arguments for `btCookiesAPI.hasSupportFor(‘level’)` are:
 * functional
