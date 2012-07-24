@@ -9,7 +9,7 @@ on other websites. Poor implementation or categorisation of cookies may result i
 poor or misleading solution and anyone adopting this solution should seek their own 
 legal advice before implementing it is a condition of using this solution that a website 
 operator enters into a licence provided here: 
-[   This file is part of the BT cookie solution.
+    [This file is part of the BT cookie solution.
 
     The BT cookie solution is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -24,7 +24,9 @@ operator enters into a licence provided here:
     You should have received a copy of the GNU General Public License
     along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
 
-    Copyright BT plc 2012 ] and that the categorisation of cookies 
+    Copyright BT plc 2012] 
+
+and that the categorisation of cookies 
 follows the ICC UK guidelines, and the implementation is complete (i.e. all concepts 
 described below are incorporated), if you are unsure if your implementation satisfies 
 the legal requirements for the jurisdiction you operate in you should seek independent 
