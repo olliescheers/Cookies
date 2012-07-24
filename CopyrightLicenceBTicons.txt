@@ -1,0 +1,40 @@
+COPYRIGHT LICENCE IN BT ICONS
+
+BT.com Icons (“BT Icons”) are free high-quality icons provided by BT plc. The purpose of this licence is to permit you to make use of our BT Icons.
+
+BT Icons (meaning "icons, icon sets, graphics, templates") are free of charge, but please read further for our Terms and Conditions.
+
+All BT Icons are licensed by BT plc free of charge. This means that you can use our icons, icon sets, graphics and web templates in any publicly accessible web site, web application or any form of presentation publicly accessible through the World Wide Web only according to the BT Icons License Terms and Conditions:
+
+
+•	You must place the link on an easy-to-see, recognizable place, so there is no confusion about the Original Author of the Works (BT plc);
+•	When copying, or paraphrasing description text (or title) on one of the BT Icons, you must make sure there are no spelling mistakes;
+•	Do not try to take credit or imply in any way that you and not BT plc is the Original Author of the Licensed Material (icons, icon sets, graphics, web templates).
+
+What you CAN DO:
+a.	All BT Icons are being provided to You under the Terms of this agreement, which allows for use of the BT Icons but does not transfer ownership. All BT Icons remain property of BT plc;
+b.	You may use BT Icons any number of times according to the Terms and Conditions;
+c.	You may use BT Icons in any Open Source project and application according to the Terms and Conditions;
+d.	Your rights to BT Icons are worldwide;
+e.	Any uses other than the ones mentioned above must be approved by BT plc in writing;
+f.	Unauthorized use will result in immediate termination of this License, and with it, your rights to use BT Icons.
+
+What you CAN NOT DO:
+a.	You may not alter, crop, modify, manipulate and create derivative works of BT Icons. All Works must be used "AS IS";
+b.	You may not sell our BT Icons or any one of them. If you're going to earn money from a project where our BT Icons are being used, then you may not use the Free License and you must approach BT for permission;
+c.	You may not redistribute, license, lease, assign, convey or transfer BT Icons, or offer free downloads in their present form or in a modified form to any third party;
+d.	You may not distribute BT Icons (icons, icon sets, graphics, web templates) online in a downloadable format or enable them to be distributed via mobile devices. 
+e.	You may not incorporate BT Icons into a logo, application icon, trademark or service mark;
+f.	You may not use BT Icons directly from [BT.COM] or any other location hosted on the [BT.COM] domain or any other domain owned by BT plc.
+
+Copyright
+a.	BT plc reserves the copyrights and ownership rights of all BT Icons downloaded from this website. We reserve the right to change parts of this License without notice and at our sole discretion.
+
+DISCLAIMER AND LIMITED WARRANTY
+EXCEPT AS EXPRESSLY SET OUT IN THIS COPYRIGHT LICENCE THE BT ICONS ARE SUPPLIED TO YOU WITHOUT WARRANTY OF ANY KIND.  BT DOES NOT WARRANT, GUARANTEE OR MAKE ANY REPRESENTATIONS REGARDING THE USE, OR THE RESULTS OF USE OF THE BT ICONS.   BT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO THE SATISFACTORY QUALITY OR FITNESS FOR ANY PARTICULAR PURPOSE OF THE BT ICONS.  IN NO EVENT WILL BT BE LIABLE TO YOU FOR ANY CONSEQUENTIAL OR INCIDENTAL DAMAGES INCLUDING ANY LOST PROFITS OR LOST SAVINGS, EVEN IF A BT REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY THIRD PARTY.
+BT warrants to its original Licensee that the BT Icons originally made available to you are, so far as BT is aware, free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of download. BT’s entire liability and your only remedy under this warranty shall be replacement of the BT Icons which are returned to BT.   
+BT shall have no obligation to support or maintain the BT Icons.
+BT does not exclude or limit its liability for death or personal injury caused by its own negligence.
+This licence shall be construed and governed by English law.  If any part of this licence is found void or unenforceable, the balance of the licence shall remain valid and enforceable according to its terms.
+*BT is a trade mark of British Telecommunications public limited company
+
