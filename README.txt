@@ -8,7 +8,8 @@ E Privacy Regulations and takes no responsibility for any implementation of this
 on other websites. Poor implementation or categorisation of cookies may result in a 
 poor or misleading solution and anyone adopting this solution should seek their own 
 legal advice before implementing it is a condition of using this solution that a website 
-operator enters into a licence provided here [ This file is part of the BT cookie solution.
+operator enters into a licence provided here: 
+[   This file is part of the BT cookie solution.
 
     The BT cookie solution is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
