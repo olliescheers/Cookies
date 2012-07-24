@@ -26,11 +26,10 @@ operator enters into a licence provided here:
 
     Copyright BT plc 2012] 
 
-and that the categorisation of cookies 
-follows the ICC UK guidelines, and the implementation is complete (i.e. all concepts 
-described below are incorporated), if you are unsure if your implementation satisfies 
-the legal requirements for the jurisdiction you operate in you should seek independent 
-legal advice.
+and that the categorisation of cookies follows the ICC UK guidelines, and the implementation 
+is complete (i.e. all concepts described below are incorporated), if you are unsure if your 
+implementation satisfies the legal requirements for the jurisdiction you operate in you 
+should seek independent legal advice.
 
 Your use of the BT cookie solution is at your own risk and BT accepts no liability for 
 any loss or damage which you may incur no matter how caused.
