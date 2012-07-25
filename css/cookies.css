@@ -15,9 +15,9 @@ You should have received a copy of the GNU General Public License
 along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
 
 Copyright BT plc 2012
-------------------------------------------------------------------------------- */
-
-/**
+---------------------------------------------------------------------------------*/
+ 
+/** 
 * Reset font sizes for cookie items
 **/
 #cookiesToolbar p,
@@ -632,5 +632,5 @@ div.subNote {
     margin-bottom: 10px;
     padding-top: 10px;
     text-align: right;
-    font-size: 0.9em;
+	font-size: 0.9em;
 }

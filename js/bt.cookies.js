@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
 
 Copyright BT plc 2012
-------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------*/
 /**
 * BT Cookies JS
 *

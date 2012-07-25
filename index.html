@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!------------------------------------------------------------------------------
 This file is part of the BT cookie solution.
 
@@ -16,29 +17,59 @@ along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
 
 Copyright BT plc 2012
 --------------------------------------------------------------------------------->
-<!DOCTYPE html>
 <head>
     <title>BT cookie implementation demo</title>
-    <style>
-		body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
-		#header{background-image:url('logo/logo_81x38.gif'); height:100px; width:100%; background-repeat:no-repeat;}
-		#contentArea{margin: 0 auto; width:900px; height:500px;};
-		#cookieLevelMsg{margin-top:100px;}
-	</style>
+    
+	<link href="css/demo.css" media="all" type="text/css" rel="stylesheet" />
 	<script src="js/bt.cookies.api.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f58c9595aaf84f7"></script>
+    <script type="text/javascript">
+	$(document).ready(function () { 
+		var addthis_config = {"data_track_addressbar":true};
+		var addthis_pub = "iberry";
+		if (btCookiesAPI.hasSupportFor('targeting')) 
+		{
+			$('#addThisToAlter').append('<!-- AddThis Button BEGIN -->\
+			<div class="addthis_toolbox addthis_default_style addthis_16x16_style">\
+				<a class="addthis_button_preferred_1"></a>\
+				<a class="addthis_button_preferred_2"></a>\
+				<a class="addthis_button_google_plusone_badge" g:plusone:size="small" g:plusone:href="https://plus.google.com/102383601500147943541/"></a>\
+				<a class="addthis_button_compact"></a>\
+				<a class="addthis_counter addthis_bubble_style"></a>\
+			</div>');
+		}
+		else
+		{
+			$('#addThisToAlter').append('<!-- AddThis Button BEGIN -->\
+			<div class="addthis_toolbox addthis_default_style " style="display:none;">\
+			   <a class="addthis_counter addthis_bubble_style" id="counter"></a>\
+			</div>\
+			<div class="addthis_toolbox addthis_default_style addthis_16x16_style">\
+				<a id="addThisFB" rel=\"yourCookieSettings\" href=\"#\" class=\"addThis_replica cookieLightbox\"></a>\
+				<a id="addThisTwitter" rel=\"yourCookieSettings\" href=\"#\" class=\"addThis_replica cookieLightbox\"></a>\
+				<a id="addThisGoogleP" rel=\"yourCookieSettings\" href=\"#\" class=\"addThis_replica cookieLightbox\"></a>\
+				<a id="addThisShare" rel=\"yourCookieSettings\" href=\"#\" class=\"addThis_replica cookieLightbox\"></a>\
+			</div>');
+		}
+	});
+							
+	</script>
 </head>
 <body>
     <div id="page">
         <div id="contentArea">
-        	<div id="header"></div>
+        	<div id="header">
+            	<a href="http://www.bt.com" target="_blank"><img src="logo/logo_81x38.gif" border="0"></a>
+            </div>
             <h1>Cookie Solution Demo</h1>
             <div id="introNotes">
                 This is a simple implementation of BT.com cookie solution.<br>
                 Hope this is useful to you. 
             </div>
-            <br>
-<br>
-<br>
+            <div id="gitLink">
+            	Get this project on <a href="https://github.com/BTplc/Cookies.git" target="_blank">Github</a>
+            </div>
             <div id="cookieLevelMsg">
 				<script type="text/javascript">						
 					var supportedCookies = "Strictly necessary, performance";
@@ -54,6 +85,7 @@ Copyright BT plc 2012
 					document.write("<h3>Cookies supported: " + supportedCookies + "</h3>");					
                 </script>
             </div>
+            <div id="addThisToAlter" class="alignAddThis"></div>
         </div>
     </div>
 <script src="js/bt.cookies.js" type="text/javascript"></script>

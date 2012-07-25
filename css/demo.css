@@ -1,0 +1,108 @@
+/*------------------------------------------------------------------------------
+This file is part of the BT cookie solution.
+
+The BT cookie solution is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+The BT cookie solution is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
+
+Copyright BT plc 2012
+---------------------------------------------------------------------------------*/
+body{font:12px/1.2 Verdana, sans-serif; padding:0 10px;}
+#header{height:100px; width:100%; text-align:left;}
+#contentArea{margin: 0 auto; width:900px; height:500px;};
+#cookieLevelMsg{margin-top:100px;}
+#gitLink{margin: 20px 0 20px 0;}
+.addthis_toolbox
+{
+	position:absolute; 
+	width:160px;
+}
+.alignAddThis
+{
+	width: 175px;
+	height: 30px;
+	margin-top:50px;
+}
+.addThis_replica
+{
+	background-image: url('../images/sprite_addThis.gif');
+	background-repeat: norepeat;
+	display: block;
+	float:left;
+}
+
+#addThisFB
+{
+	width:16px;
+	height:16px;
+	margin-right:4px;
+}
+
+#addThisTwitter
+{
+	background-position:-16px 0px;
+	width:16px;
+	height:16px;
+	margin-right:4px;
+}
+
+#addThisGoogleP
+{
+	background-position:-32px 0px;
+	width:16px;
+	height:16px;
+	margin-right:4px;
+}
+
+#addThisShare
+{
+	background-position:-48px 0px;
+	width:16px;
+	height:16px;
+	margin-right:4px;
+}
+
+#addThisCounter
+{
+	background-position:-64px 0px;
+	width:36px;
+	height:16px;
+}
+
+#addThisFB:hover
+{
+	background-position: 0px -16px ;
+}
+
+#addThisTwitter:hover
+{
+	background-position: -16px -16px ;
+}
+
+#addThisGoogleP:hover
+{
+	background-position: -32px -16px ;
+}
+
+#addThisShare:hover
+{
+	background-position: -48px -16px ;
+}
+
+#addThisCounter:hover
+{
+	background-position: -64px -16px ;
+}
+
+#shareThis .share:hover {
+	background-position: -90px -31px;
+}

@@ -15,7 +15,7 @@ You should have received a copy of the GNU General Public License
 along with the BT cookie solution.  If not, see <http://www.gnu.org/licenses/>.
 
 Copyright BT plc 2012
-------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------*/
 /*
  * jQuery BTui 1.5.1
  *
@@ -95,7 +95,7 @@ jQuery.fn.remove = function() {
 
 // jQuery.BTwidget is a factory to create jQuery plugins
 // taking some boilerplate code out of the plugin code
-// created by Scott Gonzï¿½lez and Jï¿½rn Zaefferer
+// created by Scott Gonz‡lez and Jšrn Zaefferer
 function getter(namespace, plugin, method) {
 	var methods = jQuery[namespace][plugin].getter || [];
 	methods = (typeof methods == "string" ? methods.split(/,?\s+/) : methods);
